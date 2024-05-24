@@ -1,6 +1,6 @@
 {
 	"name": "@cycraft/eslint",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Modern TS ESM base eslint that comes with everything eslint needs",
 	"license": "MIT",
 	"repository": "cycraft/eslint",
@@ -10,8 +10,8 @@
 		"url": "https://cycraft.co"
 	},
 	"exports": {
-		"prettier": "./.prettierrc.js",
-		"config": "./eslint.config.js"
+		"./prettier": "./.prettierrc.js",
+		"./config": "./eslint.config.js"
 	},
 	"engines": {
 		"node": ">=20"
@@ -28,6 +28,7 @@
 		"typescript-eslint": "^8.0.0-alpha.14"
 	},
 	"files": [
+		".prettierrc.js",
 		"eslint.config.js"
 	],
 	"keywords": [
