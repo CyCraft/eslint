@@ -1,6 +1,7 @@
 {
 	"name": "@cycraft/eslint",
-	"version": "0.0.1",
+	"version": "0.0.2",
+	"type": "module",
 	"description": "Modern TS ESM base eslint that comes with everything eslint needs",
 	"license": "MIT",
 	"repository": "cycraft/eslint",
