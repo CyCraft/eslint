@@ -13,6 +13,7 @@ export default tseslint.config(
   {
     rules: {
       '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+      '@typescript-eslint/consistent-indexed-object-style': ['error', 'index-signature'],
     },
   },
 )
