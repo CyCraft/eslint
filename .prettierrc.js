@@ -5,5 +5,8 @@ export default {
   "semi": false,
   "bracketSpacing": true,
   "quoteProps": "consistent",
-  "plugins": ["prettier-plugin-jsdoc", "prettier-plugin-organize-imports"]
+  "plugins": [
+    "prettier-plugin-organize-imports",
+    "prettier-plugin-jsdoc", // this needs to be last to work correctly
+  ],
 }
