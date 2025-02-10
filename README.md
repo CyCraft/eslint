@@ -14,9 +14,9 @@ It will install these packages for you, so you don't have to include them in you
 - `@types/node`
 - `eslint`
 - `eslint-config-prettier`
-- `eslint-plugin-unicorn`
 - `prettier`
 - `prettier-plugin-jsdoc`
+- `prettier-plugin-organize-imports`
 - `typescript`
 - `typescript-eslint`
 
