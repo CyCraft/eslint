@@ -1,28 +1,19 @@
 {
   "name": "@cycraft/eslint",
   "version": "0.4.2",
-  "type": "module",
   "description": "Modern TS ESM base eslint that comes with everything eslint needs",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cycraft/eslint.git"
-  },
-  "scripts": {
-    "release": "np",
-    "test": "echo none"
-  },
-  "author": {
-    "name": "Luca Ban - Mesqueeb",
-    "email": "luca@cycraft.co",
-    "url": "https://cycraft.co"
-  },
+  "type": "module",
+  "sideEffects": false,
   "exports": {
     "./prettier": "./.prettierrc.js",
     "./config": "./eslint.config.js"
   },
   "engines": {
     "node": ">=20"
+  },
+  "scripts": {
+    "release": "np",
+    "test": "echo none"
   },
   "dependencies": {
     "@eslint/js": "^9.20.0",
@@ -53,5 +44,14 @@
     "ts",
     "config",
     "configuration"
-  ]
+  ],
+  "author": "CyCraft (https://cycraft.co)",
+  "funding": "https://github.com/sponsors/mesqueeb",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cycraft/@cycraft/eslint.git"
+  },
+  "homepage": "https://github.com/cycraft/@cycraft/eslint#readme",
+  "bugs": "https://github.com/cycraft/@cycraft/eslint/issues"
 }
