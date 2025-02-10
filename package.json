@@ -4,7 +4,10 @@
   "type": "module",
   "description": "Modern TS ESM base eslint that comes with everything eslint needs",
   "license": "MIT",
-  "repository": "cycraft/eslint",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cycraft/eslint.git"
+  },
   "scripts": {
     "release": "np",
     "test": "echo none"
