@@ -1,6 +1,6 @@
 {
   "name": "@cycraft/eslint",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Modern TS ESM base eslint that comes with everything eslint needs",
   "type": "module",
   "sideEffects": false,
