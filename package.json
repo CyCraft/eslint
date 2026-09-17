@@ -54,5 +54,5 @@
   },
   "homepage": "https://github.com/cycraft/@cycraft/eslint#readme",
   "bugs": "https://github.com/cycraft/@cycraft/eslint/issues",
-  "packageManager": "pnpm@11.27.0"
+  "packageManager": "pnpm@12.4.2"
 }
