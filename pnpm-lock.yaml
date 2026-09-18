@@ -204,14 +204,14 @@ importers:
         specifier: ^10.1.8
         version: 10.1.8(eslint@9.20.1(supports-color@10.2.2))
       prettier:
-        specifier: ^3.9.7
-        version: 3.9.7
+        specifier: ^3.9.8
+        version: 3.9.8
       prettier-plugin-jsdoc:
         specifier: ^1.8.1
-        version: 1.8.1(prettier@3.9.7)(supports-color@10.2.2)
+        version: 1.8.1(prettier@3.9.8)(supports-color@10.2.2)
       prettier-plugin-organize-imports:
         specifier: ^4.3.0
-        version: 4.3.0(prettier@3.9.7)(typescript@5.9.3)
+        version: 4.3.0(prettier@3.9.8)(typescript@5.9.3)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -1701,8 +1701,8 @@ packages:
       vue-tsc:
         optional: true
 
-  prettier@3.9.7:
-    resolution: {integrity: sha512-T3mF5P7HFzZVLDQuCUNtJj6WK1pcpLMweMNUVwGb01bLNkH9AkKxtZvmInw8K6bnn2O3d6/5RHl6zSHiBAD0Og==}
+  prettier@3.9.8:
+    resolution: {integrity: sha512-WRFq3Wn3WId7LLROfMLdH7xaFr2jR62wU8nLO6rQUOLOxNZUviyJQs1M0iIhLexSFy+L+w0ch66wtoO2jRjG0A==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3616,21 +3616,21 @@ snapshots:
 
   presentable-error@0.0.1: {}
 
-  prettier-plugin-jsdoc@1.8.1(prettier@3.9.7)(supports-color@10.2.2):
+  prettier-plugin-jsdoc@1.8.1(prettier@3.9.8)(supports-color@10.2.2):
     dependencies:
       binary-searching: 2.0.5
       comment-parser: 1.4.1
       mdast-util-from-markdown: 2.0.2(supports-color@10.2.2)
-      prettier: 3.9.7
+      prettier: 3.9.8
     transitivePeerDependencies:
       - supports-color
 
-  prettier-plugin-organize-imports@4.3.0(prettier@3.9.7)(typescript@5.9.3):
+  prettier-plugin-organize-imports@4.3.0(prettier@3.9.8)(typescript@5.9.3):
     dependencies:
-      prettier: 3.9.7
+      prettier: 3.9.8
       typescript: 5.9.3
 
-  prettier@3.9.7: {}
+  prettier@3.9.8: {}
 
   pretty-ms@9.3.1:
     dependencies:
