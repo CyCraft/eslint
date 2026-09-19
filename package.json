@@ -12,7 +12,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "release": "np",
+    "release": "bumpp --no-push && pnpm publish --no-git-checks && git push --follow-tags && gh release create $(git describe --tags --abbrev=0) --generate-notes",
     "test": "echo none"
   },
   "dependencies": {
@@ -27,7 +27,7 @@
     "typescript-eslint": "^8.70.0"
   },
   "devDependencies": {
-    "np": "^12.1.1"
+    "bumpp": "^12.3.0"
   },
   "files": [
     ".prettierrc.js",
